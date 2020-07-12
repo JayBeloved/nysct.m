@@ -1,0 +1,21 @@
+body{
+
+	background: black;
+}
+
+.loginbox{
+	border: solid gray 1px;
+	width: 30%;
+	border-radius: 5px;
+	margin: 100px auto;
+	background: #eee;
+	padding:50px; 
+}
+input[type=text]{
+	width:69%;
+}
+input[type=password]{
+	width: 69%;
+}
+
+
