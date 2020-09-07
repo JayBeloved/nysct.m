@@ -24,7 +24,7 @@
                   </div>
 
                   <div class="form-label-group">
-                  <input type="text" id="inputcallup" class="form-control" name="callupnumber" required="required" placeholder="Callup Number">
+                  <input type="text" id="inputcallup" class="form-control" name="callup_number" required="required" placeholder="Callup Number">
                     <label for="inputcallup">Callup Number</label>
                   </div>
 
@@ -34,7 +34,13 @@
                   </div>
 
                   <div class="form-label-group">
-                  <input type="text" id="inputcds" class="form-control" name="cds" required="required" placeholder="Community Development Service">
+                  <input type="text" id="inputcds" class="form-control" name="cds" list="CDS" required="required" placeholder="Community Development Service">
+                  <datalist id="CDS">
+                    <option Value="Technical Training">
+                    <option Value="Social Service">
+                    <option Value="Health care">
+                    <option Value="Security service">
+                  </datalist>
                     <label for="inputcds">Community Development Service</label>
                   </div>
 
@@ -49,7 +55,20 @@
                     <label for="inputpassword">Password</label>
                   </div>
 
+                  <div class="form-label-group">
+                  <input type="password" id="confirmpassword" class="form-control" name="confirmpassword" required="required" placeholder="Confirm Password">
+                    <label for="confirmpassword">Confirm Password</label>
+                  </div>
+
                   <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit" name="submit">Submit</button>
+
+                  <div class="text-center">
+                    <a class="small font-weight-bold mb-2 text-uppercase">OR</a>
+                  </div>
+
+                  <div class="text-center">
+                    <a class="small btn btn-lg btn-light btn-block btn-login text-sentencecase font-weight-bold mb-2" href="#">Already Registered | Sign In</a>
+                  </div>
 
                 </form>
               </div>

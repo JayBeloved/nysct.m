@@ -10,15 +10,20 @@
 
 .atback {
   background: #007bff;
-  background: linear-gradient(to left, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background: linear-gradient(to left, rgba(30, 115, 75, 1), rgba(255, 255, 255, 0));
 
+}
+
+.nbtn {
+  background-color: rgba(30, 115, 75, 1);
+  background: linear-gradient(to top, rgba(30, 115, 75, 1), rgba(255, 255, 255, 0));
 }
 
 .multi-bg {
 width: 100%;
 background-image: url("../pictures/NYSC Logo 2.jpeg"),
   url("../pictures/serving and saving.jpg"),
-  linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  linear-gradient(to right, rgba(30, 115, 75, 1), rgba(255, 255, 255, 0));
 background-size: auto, contain, auto;
   background-repeat: no-repeat,
       no-repeat,
